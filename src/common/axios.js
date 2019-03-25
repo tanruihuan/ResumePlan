@@ -4,6 +4,7 @@ import router from 'vue-router'
 
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8'
 // axios.defaults.headers.common['Authentication-Token'] = store.state.token
+// axios.defaults.baseURL = 'http://10.202.42.24:8080'
 
 // 请求拦截器
 axios.interceptors.request.use((config) => {
